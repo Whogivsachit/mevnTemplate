@@ -10,7 +10,6 @@ app.use(morgan(':method :url :status :response-time ms - :res[content-length] \n
 app.use(bodyParser.json());
 app.use(cors());
 
-
 require('./routes')(app);
 
 sequelize.sync().then(() => {

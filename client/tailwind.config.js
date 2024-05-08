@@ -961,7 +961,6 @@ export default {
   ],
   plugins: [
     require('@tailwindcss/forms'),
-    require('@headlessui/vue'),
     require('@tailwindcss/line-clamp'),
     
   ]
